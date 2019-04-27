@@ -1,0 +1,44 @@
+/******************************
+** Secret Agent Inc. Website **
+******************************/
+
+/** Global Styles **/
+
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+/** Header **/
+
+header {
+  width: 960px;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 1.5rem;
+}
+
+header p {
+
+}
+
+/** Main Banner **/
+
+
+/** Navigation **/
+
+
+/** Main Content Area **/
+
+
+/* Product Grid */
+
+
+/* Supporting Information */
+
+
+/* Footer */
+
