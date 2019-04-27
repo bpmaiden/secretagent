@@ -12,20 +12,29 @@ html {
 /** Header **/
 
 header {
+  background-color: black;
+}
+
+#logo-area-wrap {
   width: 960px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
 }
 
 header img {
   height: 1.5rem;
+  margin: 0 1rem 0 0.5rem;
 }
 
 header p {
-
+  margin: 0.66rem 0;
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
 }
 
-/** Main Banner **/
+/** Hero Banner **/
 
 
 /** Navigation **/
