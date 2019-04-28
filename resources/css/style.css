@@ -4,7 +4,7 @@
 
 /** Global Styles **/
 
-/* White is the global text color. */
+/* Global text settings - 18px white Helvetica. */
 
 html {
   font-family: Helvetica;
@@ -16,8 +16,8 @@ h1 {
   font-size: 2rem;
 }
 
-/* The site-content-wrap class applies a consistent width to the
-central column of content, throughout the various sections. */
+/* The site-content-wrap class forms a 960px central
+content column throughout the various sections. */
 
 .site-content-wrap {
   width: 960px;
@@ -30,7 +30,7 @@ header {
   background-color: black;
 }
 
-#logo-area-wrap {
+div#logo-area-wrap {
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -49,7 +49,7 @@ header p {
 
 /** Hero Banner **/
 
-#hero-banner {
+section#hero-banner {
   height: 25rem;
   width: 100%;
   background-image: url("../images/moto.jpg");
@@ -58,11 +58,11 @@ header p {
   background-size: cover;
   }
 
-#announcement-wrap {
+div#announcement-wrap {
   padding-top: 9em;
 }
 
-#announcement {
+div#announcement {
   width: 20rem;
   padding: 2rem 0 1.9rem 3rem;
   background-color: black;
@@ -90,54 +90,50 @@ nav {
 
 /* Product Grid */
 
-#product-grid {
-  margin: 3rem auto 4rem auto;
+section#grid {
+  padding: 3rem 0 4rem 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  align-content: space-between;
 }
 
-.product-card {
-  width: 288px;
-  height: 13rem;
-  display: flex;
-  flex-direction: column;
-  background-color: white;
+div.product-card {
+  width: 30%;
+  height: 15rem;
   border: 4px solid black;
 }
 
-img#pen {
+div.product-card img {
   height: 9rem;
-  max-width: 100%;
-  margin: 2rem auto;
-  display: block;
-}
-
-img#watch {
-  height: 9rem;
-  max-width: 100%;
   margin: 2rem auto;
   display: block;
 }
 
 img#glasses {
-  height: 6rem;
-  max-width: 100%;
-  margin: 2rem auto;
-  display: block;
+  height: 4.3em;
+  margin: 4.35rem auto;
 }
 
-.product-name {
-  padding: 0.5rem 0;
+p.product-name {
+  margin: 0;
+  padding: 0.5rem;
   background-color: black;
   text-align: center;
 }
 
 /* Supporting Information */
 
-.info-card {
-  width: 35%;
+p.title {
+  width: 336px;
+  margin-top: 3rem;
   padding: 1rem 2rem;
   background-color: black;
+}
+
+p.info {
+  margin-top: 0.25rem;
+  color: black;
 }
 
 /* Footer */
