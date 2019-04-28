@@ -1,12 +1,27 @@
-/******************************
-** Secret Agent Inc. Website **
-******************************/
+/***************************
+* Secret Agent Supply Inc. *
+***************************/
 
 /** Global Styles **/
+
+/* White is the global text color. */
 
 html {
   font-family: Helvetica;
   font-size: 18px;
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+/* The site-content-wrap class applies a consistent central column
+width throughout the various sections of the page. */
+
+.site-content-wrap {
+  width: 960px;
+  margin: 0 auto;
 }
 
 /** Header **/
@@ -16,7 +31,6 @@ header {
 }
 
 #logo-area-wrap {
-  width: 960px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -30,16 +44,10 @@ header img {
 header p {
   margin: 0.66rem 0;
   font-size: 1rem;
-  color: white;
   text-transform: uppercase;
 }
 
 /** Hero Banner **/
-
-#test {
-  height: 60px;
-  background-image: url("../images/moto.jpg");
-}
 
 #hero-banner {
   height: 25rem;
@@ -48,8 +56,23 @@ header p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  }
+
+#announcement-wrap {
+  padding-top: 9em;
 }
 
+#announcement {
+  width: 20rem;
+  padding: 2rem 0 1.9rem 3rem;
+  background-color: black;
+}
+
+#announcement p, #announcement h1 {
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 /** Navigation **/
 
