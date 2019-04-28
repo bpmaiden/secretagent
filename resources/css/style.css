@@ -16,8 +16,8 @@ h1 {
   font-size: 2rem;
 }
 
-/* The site-content-wrap class applies a consistent central column
-width throughout the various sections of the page. */
+/* The site-content-wrap class applies a consistent width to the
+central column of content, throughout the various sections. */
 
 .site-content-wrap {
   width: 960px;
@@ -76,15 +76,75 @@ header p {
 
 /** Navigation **/
 
+nav {
+  background-color: firebrick;
+  padding: 0.75rem 0;
+}
+
+#nav-wrap {
+  display: flex;
+  justify-content: space-between;
+}
 
 /** Main Content Area **/
 
-
 /* Product Grid */
 
+#product-grid {
+  margin: 3rem auto 4rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-card {
+  width: 288px;
+  height: 13rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 4px solid black;
+}
+
+img#pen {
+  height: 9rem;
+  max-width: 100%;
+  margin: 2rem auto;
+  display: block;
+}
+
+img#watch {
+  height: 9rem;
+  max-width: 100%;
+  margin: 2rem auto;
+  display: block;
+}
+
+img#glasses {
+  height: 6rem;
+  max-width: 100%;
+  margin: 2rem auto;
+  display: block;
+}
+
+.product-name {
+  padding: 0.5rem 0;
+  background-color: black;
+  text-align: center;
+}
 
 /* Supporting Information */
 
+.info-card {
+  width: 35%;
+  padding: 1rem 2rem;
+  background-color: black;
+}
 
 /* Footer */
 
+footer {
+  height: 5rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}

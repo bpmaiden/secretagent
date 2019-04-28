@@ -33,14 +33,14 @@
   <!-- Navigation -->
 
   <nav>
-    <ul>
-      <li>Eyewear</li>
-      <li>Apparel</li>
-      <li>Gadgets</li>
-      <li>Vehicles</li>
-      <li>Classes</li>
-      <li>Contact</li>
-    </ul>
+    <div id="nav-wrap" class="site-content-wrap">
+      <p>Eyewear</p>
+      <p>Apparel</p>
+      <p>Gadgets</p>
+      <p>Vehicles</p>
+      <p>Classes</p>
+      <p>Contact</p>
+    </div>
   </nav>
 
   <!-- Start of Main Content Area -->
@@ -49,38 +49,30 @@
 
     <!-- Product Grid -->
 
-    <section class="product-grid">
-      <div class="product-card" id="pen">
-        <div class="product-image-wrap">
-          <img src="resources/images/pen.png" alt="Pen">
-        </div>
+    <section id="product-grid" class="site-content-wrap">
+      <div class="product-card">
+        <img id="pen" src="resources/images/pen.png" alt="Pen">
         <p class="product-name">Exploding Pen</p>
       </div>
-      <div class="product-card" id="watch">
-        <div class="product-image-wrap">
-          <img src="resources/images/watch.png" alt="Wristwatch">
-        </div>
+      <div class="product-card">
+        <img id="watch" src="resources/images/watch.png" alt="Wristwatch">
         <p class="product-name">Cellular Watch</p>
       </div>
-      <div class="product-card" id="glasses">
-        <div class="product-image-wrap">
-          <img src="resources/images/glasses.png" alt="Sunglasses">
-        </div>
+      <div class="product-card">
+        <img id="glasses" src="resources/images/glasses.png" alt="Sunglasses">
         <p class="product-name">Thermal Glasses</p>
       </div>
-    </section>
-
+    
     <!-- Supporting Information -->
 
-    <section id="supporting-info-grid">
-      <div class="info-card">
-        <p>Location</p>
-        <p>-47.346436, 84.32354</p>
+      <!-- <div class="info-card">
+        <p class="title">Location</p>
+        <p class="coordinates">-47.346436, 84.32354</p>
       </div>
       <div class="info-card">
-        <p>Hours</p>
-        <p>0800 - 1800</p>
-      </div>
+        <p class="title">Hours</p>
+        <p class="coordinates">0800 - 1800</p>
+      </div> -->
     </section>
 
   </main>
@@ -90,7 +82,7 @@
   <!-- Footer -->
 
   <footer>
-    <p>Copyright Secret Agent Supply Inc.</p>
+    <p class="site-content-wrap">Copyright Secret Agent Supply Inc.</p>
   </footer>
 
 </body>
