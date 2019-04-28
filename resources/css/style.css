@@ -36,6 +36,20 @@ header p {
 
 /** Hero Banner **/
 
+#test {
+  height: 60px;
+  background-image: url("../images/moto.jpg");
+}
+
+#hero-banner {
+  height: 25rem;
+  width: 100%;
+  background-image: url("../images/moto.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 
 /** Navigation **/
 
