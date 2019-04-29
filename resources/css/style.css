@@ -167,6 +167,16 @@ footer p {
 /* Breakpoint for tablets */
 
 @media only screen and (max-width: 1024px) {
+  #announcement h1 {
+    font-size: 1.5rem;
+    line-height: 1.15;
+  }
+  
+  #announcement p {
+    font-size: .75rem;
+    font-weight: normal;
+  }
+  
   #nav-wrap {
     justify-content: center;
   }
