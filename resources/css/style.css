@@ -4,7 +4,7 @@
 
 /** Global Styles **/
 
-/* Global text settings - 18px white Helvetica. */
+/* Global font defaults: 18px white Helvetica. */
 
 html {
   font-family: Helvetica;
@@ -143,4 +143,10 @@ footer {
   background-color: black;
   display: flex;
   align-items: center;
+}
+
+/* For tablets */
+
+@media only screen and (max-width: 1024px) {
+  
 }
