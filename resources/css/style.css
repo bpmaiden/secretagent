@@ -20,7 +20,7 @@ h1 {
 content column throughout the various sections. */
 
 .site-content-wrap {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -94,8 +94,8 @@ p.narrow-menu {
 
 /* Product Grid */
 
-section#grid {
-  padding: 3rem 0 4rem 0;
+#product-grid {
+  padding: 3rem 0 0 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -128,9 +128,19 @@ p.product-name {
 
 /* Supporting Information */
 
+#info-grid {
+  padding: 3rem 0 4rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+div.info-listing {
+  width: 35%;
+}
+
 p.title {
-  width: 336px;
-  margin-top: 3rem;
   padding: 1rem 2rem;
   background-color: black;
 }
@@ -149,6 +159,11 @@ footer {
   align-items: center;
 }
 
+footer p {
+  width: 960px;
+  margin: 0 auto;
+}
+
 /* Breakpoint for tablets */
 
 @media only screen and (max-width: 1024px) {
@@ -162,5 +177,13 @@ footer {
   
   p.narrow-menu {
     display: block;
+  }
+
+  div.product-card {
+    width: 47%;
+  }
+
+  div#glasses-card {
+    display: none;
   }
 }
