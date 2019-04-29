@@ -86,6 +86,10 @@ nav {
   justify-content: space-between;
 }
 
+p.narrow-menu {
+  display: none;
+}
+
 /** Main Content Area **/
 
 /* Product Grid */
@@ -145,8 +149,18 @@ footer {
   align-items: center;
 }
 
-/* For tablets */
+/* Breakpoint for tablets */
 
 @media only screen and (max-width: 1024px) {
+  #nav-wrap {
+    justify-content: center;
+  }
   
+  p.wide-menu {
+    display: none;
+  }
+  
+  p.narrow-menu {
+    display: block;
+  }
 }
