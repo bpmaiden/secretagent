@@ -223,14 +223,18 @@ footer p {
     display: none;
   }
   
+  section#hero-banner {
+    height: 14rem;
+  }  
+  
   div#announcement-wrap {
     max-width: 100%;
-    margin: 0;
+    margin: -4rem 0 0 0;
   }
   
   div#announcement-panel {
     width: 100%;
-    padding: 1rem 0 1.5rem 2rem;
+    padding: 1rem 0 1rem 2rem;
   }
 
   #announcement-panel h1 {
@@ -238,6 +242,35 @@ footer p {
   }
   
   nav {
-    margin-top: 0;
+    margin-top: -0.4rem;
+  }
+
+  #product-grid {
+    justify-content: center;
+  }
+  
+  div.product-card {
+    width: 90%;
+  }
+
+  div#watch-card {
+    display: none;
+  }
+
+  #info-grid {
+    padding-bottom: 3.5rem;
+    justify-content: center;
+  }
+  
+  div.info-listing {
+    width: 90%;
+  }
+
+  p.info {
+    margin-bottom: 0.5rem;
+  }
+
+  footer p {
+    text-align: center;
   }
 }
